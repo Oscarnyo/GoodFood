@@ -1,10 +1,14 @@
+<h1 align="center">Welcome to GoodFood 👋</h1>
+<p>
+</p>
 
-# Goodfood
-School assignment using html, css, js, and php.
+> School Assignment using html, css, js, and php
 
-## Tech Stack
+### 🏠 [Homepage](https://github.com/Oscarnyo/GoodFood)
 
-**Frontend:** HTML, CSS, JAVASCRIPT, and PHP
+## Author
 
-**Backend Database:** php myadmin
+👤 **Oscar**
 
+* Website: https://github.com/Oscarnyo
+* Github: [@Oscarnyo](https://github.com/Oscarnyo)
