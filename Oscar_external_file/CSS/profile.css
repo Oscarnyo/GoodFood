@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+.w3-bar{
+	font-family: "Montserrat", sans-serif
+}
+
+
+/* Colors */
+:root{
+	--lightgreen:#e3faec;
+	--green:#06C167;
+	--hovergreen:#04914d;
+}
+
+/* container */
+
+.profile_container{
+    height: 100vh;
+    padding-top: 8em;
+}
+
+.profile_box{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 2em;
+    width: 80%;
+    height: 90%;
+    border-radius: 1.5em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.profile_inputBox{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.inputBox_1, .inputBox_2{
+    display: flex;
+    flex-direction: column;
+    line-height: 3em;
+    width: 50%;
+    padding: 3em;
+}
+
+.inputBox_1, .inputBox_2 span{
+    text-align: left;
+    font-weight: bold;
+}
+
+.box{
+    border: 2px solid black;
+    background-color: var(--lightgreen);
+    font-weight: 500;
+}
+
+.btn{
+   background-color: var(--green);
+   color: white;
+   width: 15%;
+   border-radius: 5px;
+   margin-left: 47em;
+   padding: 0.7em;
+   text-align: center;
+   cursor: pointer;
+   font-size: 1.3rem;
+   margin-top: 10px;
+   border: none;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn:hover{
+   background-color: var(--hovergreen);
+   color: white;
+}

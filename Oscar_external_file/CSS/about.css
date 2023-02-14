@@ -1,0 +1,190 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+.w3-bar{
+	font-family: "Montserrat", sans-serif
+}
+
+
+/* Colors */
+:root{
+	--lightgreen:#e3faec;
+	--green:#06C167;
+	--hovergreen:#04914d;
+}
+
+.about_container{
+    height: 195vh;
+    padding-top: 5em;
+    background-color: white;  
+}
+
+
+
+/* About us */
+.aboutus{
+    margin-top: -20em;
+    padding-bottom: 6em;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 60%;
+    
+}
+
+.aboutus h1{
+    font-size: 3rem;
+    color: var(--green);
+    font-weight: 600;
+}
+
+.aboutus p{
+    margin-top: 3em;
+}
+
+.aboutus_card p{
+    margin-top: 1em;
+}
+
+.aboutus h4{
+    margin-top: -1.5em;
+    font-weight: bold;
+    color: var(--hovergreen);
+    border-bottom: 2px solid var(--green);
+    line-height: 3rem;
+}
+
+.aboutus_card{
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1130px;
+}
+
+.mission, .vision, .achieve{
+    padding: 2em 1em;
+    text-align: center;
+    width: 220px;
+    height: 300px;
+    background-color: var(--lightgreen);
+    padding: 3.5em 1em;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 1em;
+    transition: transform .2s;
+}
+
+.mission:hover, 
+.vision:hover,
+.achieve:hover{
+    transform: scale(1.1);
+    border: 1px solid var(--hovergreen);
+}
+
+
+
+/* our team */
+.about_title{
+    margin-top: 4em;
+}
+
+
+.about_row {
+    display: flex;
+    padding: 2em 1em;
+    text-align: center;
+    max-width: 1130px;
+}
+.column {
+    width: 50%;
+    padding: 0.5em 0;
+}
+  
+.about_title h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    color: var(--green);
+    font-weight: 600;
+}
+.card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 3.5em 1em;
+    border-radius: 1em;
+    color: #1f003b;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #ffffff;
+}
+.card .img-container {
+    width: 8em;
+    height: 8em;
+    background-color: var(--lightgreen);
+    padding: 0.5em;
+    border-radius: 50%;
+    margin: 0 auto 2em auto;
+}
+.card img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.card h3 {
+    font-weight: 500;
+}
+
+.card p {
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0.5em 0 2em 0;
+    letter-spacing: 2px;
+  }
+  
+.icons {
+    width: 50%;
+    min-width: 180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.4em;
+  }
+  
+.card:hover {
+    background: var(--hovergreen);
+    color: #ffffff;
+}
+
+.card:hover .img-container {
+    transform: scale(1.15);
+}
+
+
+
+
+/* additoinal screen size not important */
+@media screen and (min-width: 992px) {
+    section {
+      padding: 1em;
+    }
+    .card {
+      padding: 5em 1em;
+    }
+    .column {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+      padding: 0 1em;
+    }
+  }
